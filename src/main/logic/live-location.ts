@@ -115,7 +115,6 @@ export async function getLiveLocation() {
       }
     }
 
-    // Fallback to IP Network Location if native permission is denied
     console.log('[LOCATION] Native lock failed, falling back to IP Location...')
     const ipLoc = await getIpFallbackLocation()
     if (ipLoc) return ipLoc
