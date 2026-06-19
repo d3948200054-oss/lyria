@@ -125,9 +125,6 @@ export interface FileOpArgs {
   destPath?: string
 }
 
-/**
- * Natively processes recursive manipulations (Copy, Move, Delete) across both files and directories
- */
 export async function executeFileOp({
   operation,
   sourcePath,
@@ -137,7 +134,6 @@ export async function executeFileOp({
     switch (operation) {
       case 'copy':
         if (!destPath) return 'Error: Destination path required for copy.'
-        // cp with recursive handles files and directory structures effortlessly
         await fs.cp(sourcePath, destPath, { recursive: true })
         return `Success: Copied to ${destPath}`
 
@@ -147,7 +143,6 @@ export async function executeFileOp({
         return `Success: Moved to ${destPath}`
 
       case 'delete':
-        // rm with force and recursive cleanly purges empty/populated folders or items
         await fs.rm(sourcePath, { recursive: true, force: true })
         return `Success: Safely deleted ${sourcePath}`
 
