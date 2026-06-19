@@ -13,3 +13,4 @@ Reference for the IPC Channels.
 ## Vision & Audio
 - `vision:screen-peel` - Perform OCR on a screen region.
 - `audio:set-volume` - Master volume control.
+
