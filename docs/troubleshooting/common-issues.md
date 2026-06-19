@@ -42,3 +42,4 @@ This happens if the OS credential manager state changes (e.g., you reset your Wi
 1. Delete your local `iris_secure_vault.json` file.
 2. Launch the application.
 3. Re-enter your API keys in the Settings panel to generate a new hardware-locked vault.
+
