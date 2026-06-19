@@ -14,16 +14,19 @@ out
 .idea/
 
 
+versions
+versions.json
+
 credentials.json
+versions.js
+
+versions.js
 gmail_token.json
 
 eng.traineddata
 
-versions
-versions.json
-versions.js
-versions.js
 agents
+
 tools.ts
 global
 IRISB.tsx
