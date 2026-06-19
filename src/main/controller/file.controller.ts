@@ -80,8 +80,6 @@ export async function readFile(filePath: string): Promise<string> {
   }
 }
 
-/**
- */
 export async function writeFile({
   fileName,
   content
