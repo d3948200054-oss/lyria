@@ -35,7 +35,7 @@ const IndexRoot = () => {
           setIsConnected(true)
         } else if (status === 'STANDBY' || status === 'ERROR') {
           setIsConnected(false)
-          setIsMuted(false) // Auto-unmute when returning to standby
+          setIsMuted(false)
         }
       })
       ;(window as any).iris.onSpeakingState((speaking: boolean) => {
