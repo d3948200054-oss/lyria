@@ -74,18 +74,7 @@ const IndexRoot = () => {
           handleMicToggle={handleMicToggle}
         />
       </div>
-      <SmartDropZonesWidget />
-      <SemanticWidget />
-      <OracleWidget />
-      <WormholeWidget />
-      <LeafletMapWidget />
-      <StockWidget />
-      <WeatherWidget />
-      <ImageWidget />
-      <EmailWidget />
-      <TerminalOverlay />
-      <LiveCodingWidget />
-      <ResearchWidget />
+
     </div>
   )
 }
