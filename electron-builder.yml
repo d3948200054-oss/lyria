@@ -3,12 +3,7 @@ productName: IRIS AI
 directories:
   buildResources: build
 
-electronFuses:
-  EnableEmbeddedAsarIntegrityValidation: true
-  OnlyLoadAppFromAsar: true
-  EnableContextIsolation: true
-  EnableNodeIntegration: false
-  RestrictedWindowAccess: true
+
 
 asar: true
 compression: maximum
