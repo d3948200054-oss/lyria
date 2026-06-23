@@ -27,25 +27,19 @@ export default function Dashboard({
 
   return (
     <div className="h-full w-full bg-transparent flex flex-col relative selection:bg-[#00ff41]/30">
-      {/* Background Ambient Glows */}
       <div className="absolute top-[10%] left-[-5%] w-[40vw] h-[40vw] bg-[#00ff41] rounded-full mix-blend-screen blur-[180px] opacity-[0.03] pointer-events-none z-0"></div>
       <div className="absolute bottom-[10%] right-[-5%] w-[30vw] h-[30vw] bg-[#00ff41] rounded-full mix-blend-screen blur-[150px] opacity-[0.03] pointer-events-none z-0"></div>
 
       <main className="flex-1 min-h-0 grid grid-cols-12 gap-6 p-6 relative z-10">
-        {/* Left Telemetry Panels */}
         <div className="col-span-3 flex flex-col gap-6 z-10 min-h-0">
           <LeftPanels visionMode={visionMode} />
         </div>
 
-        {/* Center AI Core & Control Dock */}
         <div className="col-span-6 relative flex flex-col justify-end items-center pb-6 min-h-0">
           <AICore isConnected={isConnected} isSpeaking={isSpeaking} />
 
-          {/* ─── HUD CONTROL DOCK ─── */}
           <div className="flex items-center gap-2 bg-black/60 backdrop-blur-2xl border border-white/10 p-1.5 rounded-4xl shadow-[0_20px_50px_rgba(0,0,0,0.7),inset_0_1px_0_rgba(255,255,255,0.05)] z-20">
-            {/* ── OPTICS MENU TOGGLE ── */}
             <div className="relative flex items-center justify-center">
-              {/* Floating Context Menu */}
               {showVisionMenu && isConnected && (
                 <div className="absolute bottom-[calc(100%+12px)] flex flex-col gap-1 p-1.5 bg-zinc-950/95 backdrop-blur-xl border border-white/10 rounded-2xl shadow-[0_10px_40px_rgba(0,255,65,0.15)] z-50 origin-bottom animate-in fade-in zoom-in-95 duration-200 min-w-35">
                   <div className="px-3 py-1.5 border-b border-white/5 mb-1">
