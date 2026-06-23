@@ -5,7 +5,6 @@ import TitleBar from './components/Titlebar'
 export type VisionMode = 'camera' | 'screen' | 'none'
 
 const IndexRoot = () => {
-
   const [isConnected, setIsConnected] = useState(false)
   const [isSpeaking, setIsSpeaking] = useState(false)
   const [isMuted, setIsMuted] = useState(false)
@@ -15,13 +14,11 @@ const IndexRoot = () => {
       // @ts-ignore
       window.iris.stopSession()
       setIsConnected(false)
-      setSystemStatus('STANDBY')
       setIsMuted(false)
     } else {
       // @ts-ignore
       window.iris.startSession()
       setIsConnected(true)
-      setSystemStatus('CONNECTING')
     }
   }
 
