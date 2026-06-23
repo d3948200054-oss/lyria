@@ -53,9 +53,7 @@ export default function SettingsView({ isSystemActive }: SettingsProps) {
   const [authPin, setAuthPin] = useState('')
   const [authError, setAuthError] = useState(false)
 
-  const [newPin, setNewPin] = useState('')
 
-  const videoRef = useRef<HTMLVideoElement>(null)
 
   useEffect(() => {
     if (!window.electron?.ipcRenderer) return undefined
