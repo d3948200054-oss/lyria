@@ -73,11 +73,7 @@ export default function SettingsView({ isSystemActive }: SettingsProps) {
   const labelClass = 'text-sm text-zinc-300 font-medium flex items-center gap-2 mb-2'
   const titleClass = 'text-lg font-semibold text-white flex items-center gap-3'
 
-  const tabConfigs = [
-    { id: 'updates', label: 'System Updates', icon: <RiTerminalWindowLine size={18} /> },
-    { id: 'keys', label: 'API Keys', icon: <RiPlugLine size={18} /> },
-    { id: 'security', label: 'Security', icon: <RiShieldKeyholeLine size={18} /> }
-  ]
+  const tabConfigs = [{ id: 'keys', label: 'API Keys', icon: <RiPlugLine size={18} /> }]
 
   return (
     <div className="flex-1 p-6 md:p-10 flex flex-col items-center bg-transparent min-h-screen text-zinc-100 overflow-y-auto scrollbar-small">
