@@ -148,7 +148,6 @@ export default function Dashboard({
           </div>
         </div>
 
-        {/* Right Action Panel */}
         <div className="col-span-3 h-full flex flex-col z-10 min-h-0">
           <RightPanel />
         </div>
