@@ -5,11 +5,6 @@ import {
   ipcMain,
   desktopCapturer,
   globalShortcut,
-  screen,
-  session,
-  safeStorage,
-  systemPreferences,
-  dialog
 } from 'electron'
 import path, { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
