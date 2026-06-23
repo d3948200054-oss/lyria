@@ -88,8 +88,6 @@ export default function SettingsView({ isSystemActive }: SettingsProps) {
     window.electron.ipcRenderer
       .invoke('check-vault-status')
       .then((res: any) => setFaceCount(res?.faceCount || 0))
-
-
   }, [])
 
   const checkForUpdates = () => window.electron.ipcRenderer.invoke('check-for-updates')
@@ -232,8 +230,6 @@ export default function SettingsView({ isSystemActive }: SettingsProps) {
 
         <div className="relative min-h-125">
           <AnimatePresence mode="wait">
-          
-
             {activeTab === 'keys' && (
               <motion.div
                 key="keys"
