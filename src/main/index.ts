@@ -16,26 +16,9 @@ import fs from 'fs'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
-import registerScreenPeeler from './handlers/ScreenPeeler-handler'
-import registerPhantomKeyboard from './handlers/PhantomControl-handler'
 import registerSecurityVault from './security/Security'
 import registerLockSystem from './security/lock-system'
 import { autoUpdater } from 'electron-updater'
-import { pushVisionToGemini, StartIRIS, stopIRIS, toggleIRISMic } from './agents/iris-ai'
-import { getMemory } from './hooks/iris-memory'
-import {
-  connectAdb,
-  disconnectAdb,
-  executeAdbQuickAction,
-  getAdbHistory,
-  getAdbNotifications,
-  getAdbTelemetry,
-  takeAdbScreenshot
-} from './mobile/mobile-manager'
-import registerSystemHandlers from './lib/system'
-import registerFrontendIPC from './handler/ui-ipc-bridge'
-import { executeDeepResearch } from './services/deep-research'
-import { initWakeWord } from './voice/WakeupWord'
 
 app.commandLine.appendSwitch('use-fake-ui-for-media-stream')
 
@@ -141,8 +124,6 @@ function toggleOverlayMode() {
 
 app.whenReady().then(() => {
   electronApp.setAppUserModelId('com.electron')
-
-  registerFrontendIPC()
 
   autoUpdater.autoDownload = true
   autoUpdater.autoInstallOnAppQuit = true
@@ -306,80 +287,12 @@ app.whenReady().then(() => {
     }
   })
 
-  ipcMain.on('iris:start-session', (event) => {
-    console.log('Starting IRIS...')
-    StartIRIS(event)
-  })
-
-  ipcMain.on('iris:stop-session', () => {
-    console.log('Stopping IRIS...')
-    stopIRIS()
-  })
-
-  ipcMain.on('iris:toggle-mic', (_event, isMuted: boolean) => {
-    console.log(`Toggling Mic... Muted state: ${isMuted}`)
-    toggleIRISMic(isMuted)
-  })
-
-  ipcMain.handle('iris:get-history', async () => {
-    return await getMemory()
-  })
-
-  ipcMain.handle('adb-get-history', async () => {
-    return await getAdbHistory()
-  })
-
-  ipcMain.on('iris:send-vision-frame', (_event, base64Data: string) => {
-    pushVisionToGemini(base64Data)
-  })
-
-  registerSystemHandlers(ipcMain)
-  ipcMain.handle('trigger-deep-research', async (event, { query }) => {
-    return await executeDeepResearch({ query })
-  })
-
-  ipcMain.handle('adb-connect', async (_, args) => {
-    return await connectAdb({ ip: args.ip, port: args.port })
-  })
-
-  ipcMain.handle('adb-disconnect', async () => {
-    return await disconnectAdb()
-  })
-
-  ipcMain.handle('adb-telemetry', async () => {
-    return await getAdbTelemetry()
-  })
-
-  ipcMain.handle('adb-quick-action', async (_, args) => {
-    return await executeAdbQuickAction(args.action)
-  })
-
-  ipcMain.handle('adb-screenshot', async () => {
-    return await takeAdbScreenshot()
-  })
-
-  ipcMain.handle('adb-get-notifications', async () => {
-    return await getAdbNotifications()
-  })
-
-  registerLockSystem()
-  registerSecurityVault()
-  registerPhantomKeyboard()
-  registerScreenPeeler()
-
   ipcMain.handle('get-screen-source', async () => {
     const sources = await desktopCapturer.getSources({ types: ['screen'] })
     return sources[0]?.id
   })
 
   createWindow()
-
-  if (mainWindow) {
-    initWakeWord(mainWindow.webContents)
-  }
-
-  globalShortcut.register('CommandOrControl+Shift+I', () => toggleOverlayMode())
-  ipcMain.on('toggle-overlay', () => toggleOverlayMode())
 
   app.on('activate', function () {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
