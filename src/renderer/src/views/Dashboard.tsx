@@ -34,7 +34,7 @@ export default function Dashboard({
       <main className="flex-1 min-h-0 grid grid-cols-12 gap-6 p-6 relative z-10">
         {/* Left Telemetry Panels */}
         <div className="col-span-3 flex flex-col gap-6 z-10 min-h-0">
-          <LeftPanels status={systemStatus} visionMode={visionMode} />
+          <LeftPanels visionMode={visionMode} />
         </div>
 
         {/* Center AI Core & Control Dock */}
