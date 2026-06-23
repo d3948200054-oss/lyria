@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS COMMUNITY EDITION (Free & Open Source)]**
+> *Access to the high-performance desktop framework shell (Electron + Vite + React 19 + Tailwind v4).*
+
 # 🚀 Getting Started
 
 IRIS is a powerful voice-first AI OS. This guide will help you set up the public UI shell.

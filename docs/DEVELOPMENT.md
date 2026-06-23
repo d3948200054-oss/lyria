@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS COMMUNITY EDITION (Free & Open Source)]**
+> *Access to the high-performance desktop framework shell (Electron + Vite + React 19 + Tailwind v4).*
+
 # 💻 Developer Guide
 
 For contributors and sponsors working on the IRIS codebase.

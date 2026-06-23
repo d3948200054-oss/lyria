@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS COMMUNITY EDITION (Free & Open Source)]**
+> *Access to the high-performance desktop framework shell (Electron + Vite + React 19 + Tailwind v4).*
+
 # 🎨 Customization
 
 IRIS uses a highly opinionated "Neural OS" aesthetic.

@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS COMMUNITY EDITION (Free & Open Source)]**
+> *Access to the high-performance desktop framework shell (Electron + Vite + React 19 + Tailwind v4).*
+
 # 📖 Glossary
 
 - **Neural OS:** The conceptual framework of IRIS as an OS-level agent layer.

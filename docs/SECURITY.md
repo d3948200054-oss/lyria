@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
+> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
+
 # 🛡️ Security Best Practices
 
 Security is the core pillar of the Autonomous Agent.

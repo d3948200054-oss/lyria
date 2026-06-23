@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
+> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
+
 # 🏗️ System Architecture
 
 IRIS operates on a strictly separated architecture for maximum security and performance.

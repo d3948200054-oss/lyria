@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
+> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
+
 # Local Memory and Vector Retrieval
 
 To execute tasks with deep contextual awareness, IRIS implements a local memory system. Instead of relying on cloud-based vector stores, memory resides entirely on the host machine.

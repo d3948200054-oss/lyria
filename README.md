@@ -89,29 +89,27 @@ It is a **Voice-First Desktop AI Assistant** that executes real-world actions ac
 
 ---
 
-# 🪡 Open Core Model
+# 🪡 Commercial Open-Core & Sponsorship Model Matrix
 
-### IRIS follows an Open Core development model.
+### IRIS follows a finalized Commercial Open-Core & Sponsorship model.
 
-**The public repository includes**:
+We enforce three strict architectural and licensing boundaries across all deployments:
 
-- Desktop application framework
-- User interface
-- Core infrastructure
-- Selected integrations
-- Community-facing examples
+## 1. IRIS Community Edition (Free & Open Source)
+- **Framework Access:** Access to the high-performance desktop framework shell (Electron + Vite + React 19 + Tailwind v4).
+- **Customization:** Fully customizable UI layouts, themes, widgets, and standard window management.
+- **Licensing:** Built under the permissive MIT License for public UI contributions.
+- **Restrictions:** Core AI routing, background execution loops, and autonomous system tools are disabled/hidden.
 
-The following production components are private:
+## 2. IRIS PRO (End-User Commercial Application - ₹499 Flat Fee)
+- **Cost:** ₹499 Flat Fee (plus platform processing)
+- **Full Binary Access:** Grants a lifetime, single-seat perpetual license to the fully compiled, highly protected native binary core.
+- **Core Unlock:** Unlocks the core voice orchestration loops, Gemini 3.1 Live API WebRTC bidirectional streaming, and local LanceDB vector search.
+- **Advanced Utilities:** Unlocks advanced, automated system utilities: Deep Research Agent, ScreenPeeler OCR, Phantom Typer, Livecoding, and Mobile Telekinesis.
+- **Security Guardrails:** Protected completely via native V8 Bytecode compilation and strict server-side cryptographic hardware identity (HWID) verification guards.
 
-- Core voice orchestration engine
-- Advanced tool execution logic
-- Internal automation systems
-- Production-grade implementations
-- Certain premium modules
-
-GitHub Sponsors receive access to additional documentation, implementation examples, architecture breakdowns, and development resources depending on tier.
-
-**Sponsorship does not include access to the complete private source code.**
+## 3. GitHub Sponsorship Program (Incremental Developer/Source Access)
+- **Overview:** This path allows developers to sponsor the project monthly to gain incremental, step-by-step code and preview access. Note that current proprietary internal production engines (IRIS 2.0) are NEVER open-sourced. Access to the source code archives is scaled strictly across the monthly tiers.
 
 ---
 
@@ -288,42 +286,39 @@ IRIS uses **enterprise-grade code protection** to secure proprietary agent logic
 
 ---
 
-# ⚡ Why Upgrade to IRIS Pro?
+# ⚡ Why Upgrade to IRIS PRO?
 
-IRIS is built on an **Open Core model**. While the Free Tier (Public Repository) gives you access to the community UI and basic templates, the **core voice engine, agent loops, and advanced execution tools** are protected within the IRIS Pro ecosystem.
+IRIS is built on a **Commercial Open-Core model**. While the Community Edition gives you access to the community UI and basic templates, the **core voice engine, agent loops, and advanced execution tools** are protected within the IRIS PRO ecosystem.
 
-Upgrading to **IRIS Pro (₹499 base license + platform processing fee (Final Checkout: ₹513))** unlocks the complete autonomous OS controller experience.
+Upgrading to **IRIS PRO** unlocks the complete autonomous OS controller experience.
 
-## 🎁 Free Tier (Base Engine)
+### Core Value Justification Protocol
 
-**Cost:** Free
+- **Zero Subscriptions / Permanent Ownership:** Pay once, own the local infrastructure forever.
+- **Ironclad Security & IP Rights:** Fully compiled V8 machine bytecode execution ensuring corporate zero-trust deployment.
+- **Deep Hardware Guardrails:** Immutable cryptographic HWID checking that restricts a standard Pro license to up to 2 active personal developer machines, with a secure 3-month backend unbind cooldown rotation rule to prevent unauthorized redistribution.
 
-- Access to the public frontend shell (React + Tailwind)
-- Community Layout Config & Themes
-- Standard PIN-only OS Vault lockdown
-- Basic UI Widgets & Desktop Shell structure
-
-## 🚀 IRIS Paid Pro
-
-**Cost:** ₹499 base license + platform processing fee (Final Checkout: ₹513)
-
-- **Instant License Activation:** Pay once, keep it forever. No subscriptions.
-- **Hands-Free Wake Up Word:** Passive offline activation ("Hey, IRIS").
-- **ScreenPeeler Multimodal AI OCR:** Instantly scan and extract text/code from your screen (Ctrl+Alt+X).
-- **Phantom Ghost Keyboard:** Global inline injection (Ctrl+Alt+Space).
-- **Mobile Telekinesis (Android):** Full ADB remote actions, telemetry, and file pushing.
-- **Deep Research Agent:** Multi-step autonomous web crawling and data gathering.
-- **Localhost Wormhole:** Instantly expose local ports to the public internet.
-- **OS Vault Security:** Biometric Face Recognition + PIN lockdown.
-- **Direct Pro Access:** Fully functional local execution engine.
-
-### How to Upgrade?
+### How to Upgrade to IRIS PRO?
 
 1. **Authenticate with Google** to create your secure identity.
-2. **Purchase a License** via our Secure Checkout (Razorpay).
-3. **Unlock the IRIS PRO** instantly.
+2. **Purchase a License** via our Secure Checkout.
+3. **Unlock IRIS PRO** instantly.
 
-[**Compare Free vs Pro Features in Detail**](/compare)
+[**Compare Community vs PRO Features in Detail**](/compare)
+
+---
+
+# 💖 GitHub Sponsorship Program
+
+For developers looking to support the project, study legacy architecture, or gain early access to experimental features, we offer the following sponsorship tiers:
+
+- **$5/mo (IRIS Supporter):** Sponsor badge, sponsor-only updates, development progress reports, and monthly project updates. No code access.
+- **$15/mo (IRIS Insider):** Everything in Supporter + access to the private `iris-insiders` repository. Includes early development previews, architecture discussions, behind-the-scenes progress, and basic working code snippets.
+- **$30/mo (IRIS Builder):** Everything in previous + access to `iris-labs`. Includes experimental AI agent snippets, prototype system configs, technical development logs, and alpha feature testing opportunities.
+- **$50/mo (IRIS Alpha Access):** Everything in previous + access to `iris-alpha`. Includes advanced architectural breakdowns, early alpha repository builds, upcoming feature previews, and priority feedback consideration.
+- **$250/mo (IRIS MAX):** The ultimate access tier. Everything from previous tiers + full access to the private `IRIS Legacy Repository`. This completely unlocks the full, unredacted IRIS v1 source archive (full v1 code, legacy voice agent implementation, legacy tool execution system, architecture documentation, design notes, and archived working examples).
+
+> **CRITICAL DISCLAIMER FOR IRIS MAX:** This tier provides access to the *complete legacy IRIS v1 codebase archive only*. Current proprietary systems, IRIS 2.0, enterprise commercial modules, private infrastructure, and future internal development pipelines are explicitly NOT included.
 
 ---
 

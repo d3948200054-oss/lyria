@@ -4,8 +4,9 @@ Welcome to the IRIS development workspace. 👁️⚡
 
 IRIS is an advanced, voice-first desktop assistant designed to streamline human-computer interaction through automated desktop actions. Right now, this is a solo-developed project, which means your contributions are incredibly valuable—but review time is limited.
 
-**🚨 CRITICAL ACCESS NOTICE: Active Contribution Requires Sponsorship**
-Because the core orchestration, voice engine, and execution tools are heavily protected, **you must be an active sponsor at the $15/month (IRIS Insider) tier or higher to contribute to the codebase.** This grants you access to the private `iris-insiders` repository where the actual executable code lives. PRs submitted to the public UI shell without accompanying backend logic cannot be merged into the master release.
+**🚨 CRITICAL ACCESS NOTICE: Commercial Core License Restrictions**
+
+We welcome public contributions to the IRIS Community UI! Developers can fork the repo, refine the React components, build custom front-end layouts, and submit Pull Requests under the MIT License. However, to run, test, or build workflows involving active automation logic, a valid local IRIS PRO License (₹499) is strictly required. Pull Requests altering, attempting to mock, or reverse-engineer core IPC bridges, V8 bytecode handlers, or licensing boundaries will be immediately closed. Developers wishing to incrementally study code snippets or unlock the full legacy v1 codebase can join the corresponding GitHub Sponsorship tiers up to IRIS MAX ($250/mo).
 
 Please read this guide to ensure your Pull Requests (PRs) merge smoothly and keep the codebase pristine.
 
@@ -25,7 +26,7 @@ Please read this guide to ensure your Pull Requests (PRs) merge smoothly and kee
 
 ## 🛠 How to Contribute
 
-1. **Verify Your Access** → Ensure you are actively subscribed to the $15/mo tier and have cloned the private `iris-insiders` repository.
+1. **Verify Your License Scope** → Ensure you are working within the bounds of your tier. Community UI changes are welcome from anyone, but core logic modifications require testing via an IRIS PRO License.
 2. **Bugs & small fixes** → Open a PR directly in the private repository!
 3. **New features / architecture** → Start a GitHub Discussion or open an Issue first. Please don't spend 20 hours building a massive feature without checking if it aligns with the project roadmap.
 4. **Refactor-only PRs** → **Do not open a PR.** Cosmetic refactors (e.g., changing linting rules, reorganizing folders) are not accepted unless requested as part of a specific bug fix.
@@ -74,7 +75,7 @@ Check the GitHub Issues for labels like `good first issue` or `help wanted`.
 
 ## 🤝 Becoming a Core Contributor
 
-IRIS is growing, and I am selectively looking to expand the maintainer team. If you are an elite developer who understands Electron, React, or local LLM execution, and you are an active $15+ Sponsor, I'd love to have you on board.
+IRIS is growing, and I am selectively looking to expand the maintainer team. If you are an elite developer who understands Electron, React, or local LLM execution, and you operate with a valid IRIS PRO License, I'd love to have you on board.
 
 Being a maintainer is about consistent involvement—triaging issues, reviewing PRs, and driving the architecture forward.
 

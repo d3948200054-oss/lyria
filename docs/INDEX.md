@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS COMMUNITY EDITION (Free & Open Source)]**
+> *Access to the high-performance desktop framework shell (Electron + Vite + React 19 + Tailwind v4).*
+
 # 📚 IRIS Neural OS Documentation Hub
 
 Welcome to the comprehensive documentation for IRIS, the Voice-First Desktop AI Assistant.

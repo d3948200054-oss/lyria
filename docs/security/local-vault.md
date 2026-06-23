@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
+> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
+
 # Security and the Local Vault
 
 IRIS has deep system-level execution privileges. To secure these capabilities, the architecture enforces a strict zero-trust, local-first security model.

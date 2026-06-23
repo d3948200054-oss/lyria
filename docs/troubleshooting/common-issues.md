@@ -1,3 +1,6 @@
+> **[TIER ALIGNMENT: IRIS COMMUNITY EDITION (Free & Open Source)]**
+> *Access to the high-performance desktop framework shell (Electron + Vite + React 19 + Tailwind v4).*
+
 # Troubleshooting & Common Issues
 
 When dealing with low-level native OS execution, WebRTC, and local vector databases, you may occasionally encounter build or runtime issues. Here are the common resolutions.
