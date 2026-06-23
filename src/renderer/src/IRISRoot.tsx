@@ -5,10 +5,8 @@ import TitleBar from './components/Titlebar'
 export type VisionMode = 'camera' | 'screen' | 'none'
 
 const IndexRoot = () => {
-  const [isOverlay, setIsOverlay] = useState(false)
 
   const [isConnected, setIsConnected] = useState(false)
-  const [systemStatus, setSystemStatus] = useState<Status>('STANDBY')
   const [isSpeaking, setIsSpeaking] = useState(false)
   const [isMuted, setIsMuted] = useState(false)
 
