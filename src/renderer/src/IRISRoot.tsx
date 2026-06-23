@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import IRIS from './UI/IRIS'
+import TitleBar from './components/Titlebar'
 
 export type VisionMode = 'camera' | 'screen' | 'none'
 
@@ -58,20 +59,6 @@ const IndexRoot = () => {
     if ((window as any).iris?.toggleMic) {
       ;(window as any).iris.toggleMic(nextMutedState)
     }
-  }
-
-  if (isOverlay) {
-    return (
-      <div className="w-screen h-screen overflow-hidden flex items-center justify-center bg-transparent">
-        <MiniOverlay
-          isConnected={isConnected}
-          toggleConnection={toggleConnection}
-          isSpeaking={isSpeaking}
-          isMuted={isMuted}
-          handleMicToggle={handleMicToggle}
-        />
-      </div>
-    )
   }
 
   return (
