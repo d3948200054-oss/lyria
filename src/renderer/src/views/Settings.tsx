@@ -32,7 +32,7 @@ function GlassPanel({
 }
 
 export default function SettingsView({ isSystemActive }: SettingsProps) {
-  const [activeTab, setActiveTab] = useState<TabType>('updates')
+  const [activeTab, setActiveTab] = useState<TabType>('keys')
 
   const [geminiKey, setGeminiKey] = useState('')
   const [groqKey, setGroqKey] = useState('')
