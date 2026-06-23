@@ -27,7 +27,6 @@ const glassPanel = 'bg-zinc-950/40 backdrop-blur-xl border border-white/5 rounde
 const IRIS = ({
   isConnected,
   toggleConnection,
-  systemStatus,
   isSpeaking,
   isMuted,
   handleMicToggle
