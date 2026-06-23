@@ -6,7 +6,7 @@ IRIS is an advanced, voice-first desktop assistant designed to streamline human-
 
 **🚨 CRITICAL ACCESS NOTICE: Commercial Core License Restrictions**
 
-We welcome public contributions to the IRIS Community UI! Developers can fork the repo, refine the React components, build custom front-end layouts, and submit Pull Requests under the MIT License. However, to run, test, or build workflows involving active automation logic, a valid local IRIS PRO License (₹499) is strictly required. Pull Requests altering, attempting to mock, or reverse-engineer core IPC bridges, V8 bytecode handlers, or licensing boundaries will be immediately closed. Developers wishing to study the legacy architecture can join the IRIS MAX GitHub Sponsorship tier.
+We welcome public contributions to the IRIS Community UI! Developers can fork the repo, refine the React components, build custom front-end layouts, and submit Pull Requests under the MIT License. However, to run, test, or build workflows involving active automation logic, a valid local IRIS PRO License (₹499) is strictly required. Pull Requests altering, attempting to mock, or reverse-engineer core IPC bridges, V8 bytecode handlers, or licensing boundaries will be immediately closed. Developers wishing to incrementally study code snippets or unlock the full legacy v1 codebase can join the corresponding GitHub Sponsorship tiers up to IRIS MAX ($250/mo).
 
 Please read this guide to ensure your Pull Requests (PRs) merge smoothly and keep the codebase pristine.
 

@@ -108,8 +108,8 @@ We enforce three strict architectural and licensing boundaries across all deploy
 - **Advanced Utilities:** Unlocks advanced, automated system utilities: Deep Research Agent, ScreenPeeler OCR, Phantom Typer, Livecoding, and Mobile Telekinesis.
 - **Security Guardrails:** Protected completely via native V8 Bytecode compilation and strict server-side cryptographic hardware identity (HWID) verification guards.
 
-## 3. GitHub Sponsorship Program (Developer/Source Access)
-- **Overview:** The core proprietary systems (IRIS 2.0) are NEVER open-sourced. However, developers can sponsor the project monthly to gain access to experimental builds, architectural insights, and the Legacy v1 source code.
+## 3. GitHub Sponsorship Program (Incremental Developer/Source Access)
+- **Overview:** This path allows developers to sponsor the project monthly to gain incremental, step-by-step code and preview access. Note that current proprietary internal production engines (IRIS 2.0) are NEVER open-sourced. Access to the source code archives is scaled strictly across the monthly tiers.
 
 ---
 
@@ -312,13 +312,13 @@ Upgrading to **IRIS PRO** unlocks the complete autonomous OS controller experien
 
 For developers looking to support the project, study legacy architecture, or gain early access to experimental features, we offer the following sponsorship tiers:
 
-- **$5/mo (IRIS Supporter):** Sponsor badge, sponsor-only updates, development progress reports, and monthly project updates.
-- **$15/mo (IRIS Insider):** Everything in Supporter + access to the private `iris-insiders` repository, early development previews, architecture discussions, and behind-the-scenes progress.
-- **$30/mo (IRIS Builder):** Everything in previous + access to `iris-labs`, experimental AI agents, prototype systems, technical logs, and alpha feature testing.
-- **$50/mo (IRIS Alpha Access):** Everything in previous + access to `iris-alpha`, early alpha builds, upcoming feature previews, private release notes, and priority feedback.
-- **$250/mo (IRIS MAX):** Everything in previous + access to the private `IRIS Legacy Repository`. Includes the full IRIS v1 source archive, legacy voice agent implementation, legacy tool execution system, architecture documentation, and archived releases.
+- **$5/mo (IRIS Supporter):** Sponsor badge, sponsor-only updates, development progress reports, and monthly project updates. No code access.
+- **$15/mo (IRIS Insider):** Everything in Supporter + access to the private `iris-insiders` repository. Includes early development previews, architecture discussions, behind-the-scenes progress, and basic working code snippets.
+- **$30/mo (IRIS Builder):** Everything in previous + access to `iris-labs`. Includes experimental AI agent snippets, prototype system configs, technical development logs, and alpha feature testing opportunities.
+- **$50/mo (IRIS Alpha Access):** Everything in previous + access to `iris-alpha`. Includes advanced architectural breakdowns, early alpha repository builds, upcoming feature previews, and priority feedback consideration.
+- **$250/mo (IRIS MAX):** The ultimate access tier. Everything from previous tiers + full access to the private `IRIS Legacy Repository`. This completely unlocks the full, unredacted IRIS v1 source archive (full v1 code, legacy voice agent implementation, legacy tool execution system, architecture documentation, design notes, and archived working examples).
 
-> **CRITICAL DISCLAIMER FOR IRIS MAX:** This tier provides access to the *legacy IRIS v1 codebase only*. Current proprietary systems, IRIS 2.0, commercial modules, private infrastructure, and future internal development are explicitly NOT included.
+> **CRITICAL DISCLAIMER FOR IRIS MAX:** This tier provides access to the *complete legacy IRIS v1 codebase archive only*. Current proprietary systems, IRIS 2.0, enterprise commercial modules, private infrastructure, and future internal development pipelines are explicitly NOT included.
 
 ---
 
