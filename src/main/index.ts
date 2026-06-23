@@ -121,43 +121,6 @@ function toggleOverlayMode() {
 app.whenReady().then(() => {
   electronApp.setAppUserModelId('com.electron')
 
-  session.defaultSession.setPermissionRequestHandler((_webContents, permission, callback) => {
-    const allowedPermissions = [
-      'media',
-      'audioCapture',
-      'videoCapture',
-      'desktopVideoCapture',
-      'microphone',
-      'camera'
-    ]
-    if (allowedPermissions.includes(permission)) {
-      callback(true)
-    } else {
-      callback(false)
-    }
-  })
-
-  session.defaultSession.setPermissionCheckHandler((_webContents, permission) => {
-    const allowedPermissions = [
-      'media',
-      'audioCapture',
-      'videoCapture',
-      'desktopVideoCapture',
-      'microphone',
-      'camera'
-    ]
-    return allowedPermissions.includes(permission)
-  })
-
-  if (process.platform === 'darwin') {
-    if (systemPreferences.getMediaAccessStatus('microphone') !== 'granted') {
-      systemPreferences.askForMediaAccess('microphone')
-    }
-    if (systemPreferences.getMediaAccessStatus('camera') !== 'granted') {
-      systemPreferences.askForMediaAccess('camera')
-    }
-  }
-
   session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
     const responseHeaders = { ...details.responseHeaders }
     delete responseHeaders['content-security-policy']
