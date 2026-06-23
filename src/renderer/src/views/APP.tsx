@@ -1,3 +1,4 @@
+import { AppItem, getAllApps } from '@renderer/services/system-info'
 import { useState, useEffect, useRef, useCallback } from 'react'
 import {
   RiAppsLine,
@@ -8,7 +9,6 @@ import {
   RiDiscordLine,
   RiGamepadLine
 } from 'react-icons/ri'
-import { getAllApps, AppItem } from '@renderer/services/system-info'
 
 const SmartIcon = ({ name }: { name: string }) => {
   if (!name) return <div className="w-10 h-10 bg-zinc-800 rounded-lg border border-white/5" />
