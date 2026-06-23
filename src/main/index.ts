@@ -121,18 +121,6 @@ function toggleOverlayMode() {
 app.whenReady().then(() => {
   electronApp.setAppUserModelId('com.electron')
 
-  session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
-    const responseHeaders = { ...details.responseHeaders }
-    delete responseHeaders['content-security-policy']
-    delete responseHeaders['x-content-security-policy']
-    delete responseHeaders['access-control-allow-origin']
-
-    callback({
-      responseHeaders,
-      statusLine: details.statusLine
-    })
-  })
-
   app.on('browser-window-created', (_, window) => {
     optimizer.watchWindowShortcuts(window)
   })
