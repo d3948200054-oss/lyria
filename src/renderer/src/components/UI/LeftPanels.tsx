@@ -44,7 +44,6 @@ function PulseIndicator({ active, color = '#00ff88' }: { active: boolean; color?
   )
 }
 
-// Optimized Glass Panel with thinner borders and lighter GPU load
 function PremiumGlassPanel({
   children,
   className = '',
@@ -84,7 +83,6 @@ function PremiumGlassPanel({
   )
 }
 
-// Hardware-accelerated Progress Bar (using transform: scaleX)
 function NeonProgressBar({
   value,
   color,
