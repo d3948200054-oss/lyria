@@ -49,10 +49,6 @@ export default function SettingsView({ isSystemActive }: SettingsProps) {
   const [hfKey, setHfKey] = useState('')
   const [tavilyKey, settavilyKey] = useState('')
 
-  const [isSecurityUnlocked, setIsSecurityUnlocked] = useState(false)
-  const [authPin, setAuthPin] = useState('')
-  const [authError, setAuthError] = useState(false)
-
 
 
   useEffect(() => {
