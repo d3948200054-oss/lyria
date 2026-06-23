@@ -41,18 +41,6 @@ function GlassPanel({
   )
 }
 
-function ProgressBar({ progress }: { progress: number }) {
-  return (
-    <div className="h-2 w-full bg-black/50 rounded-full overflow-hidden border border-white/5">
-      <motion.div
-        className="h-full bg-cyan-500 rounded-full shadow-[0_0_10px_rgba(6,182,212,0.5)]"
-        initial={{ width: 0 }}
-        animate={{ width: `${progress}%` }}
-        transition={{ ease: 'easeOut' }}
-      />
-    </div>
-  )
-}
 
 export default function SettingsView({ isSystemActive }: SettingsProps) {
   const [activeTab, setActiveTab] = useState<TabType>('updates')
