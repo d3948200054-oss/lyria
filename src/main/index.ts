@@ -58,31 +58,6 @@ app.whenReady().then(() => {
       })
   })
 
-  ipcMain.on('iris:start-session', (event) => {
-    console.log('Starting IRIS...')
-    StartIRIS(event)
-  })
-
-  ipcMain.on('iris:stop-session', () => {
-    console.log('Stopping IRIS...')
-    stopIRIS()
-  })
-
-  ipcMain.on('iris:toggle-mic', (_event, isMuted: boolean) => {
-    console.log(`Toggling Mic... Muted state: ${isMuted}`)
-    toggleIRISMic(isMuted)
-  })
-
-  ipcMain.handle('iris:get-history', async () => {
-    return await getMemory()
-  })
-
-  ipcMain.on('iris:send-vision-frame', (_event, base64Data: string) => {
-    pushVisionToGemini(base64Data)
-  })
-
-  registerSystemHandlers(ipcMain)
-
   createWindow()
 
   app.on('activate', function () {
