@@ -1,6 +1,3 @@
-> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
-> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
-
 # Voice Engine
 
 IRIS is fundamentally designed as a Voice-First Desktop Assistant. The voice processing pipeline is engineered for sub-500ms latency, enabling fluid, duplex conversational interactions.

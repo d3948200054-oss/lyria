@@ -1,6 +1,3 @@
-> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
-> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
-
 # 🛠️ Tools System
 
 Tools are the bridge between AI reasoning and native OS execution.

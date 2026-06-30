@@ -1,6 +1,3 @@
-> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
-> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
-
 # 🔌 API Integration
 
 IRIS uses an absolute Zero-Trust, local-only keychain for API integrations.

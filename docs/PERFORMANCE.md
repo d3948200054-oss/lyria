@@ -1,6 +1,3 @@
-> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
-> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
-
 # ⚡ Performance
 
 Rules for keeping the Neural OS ultra-responsive.

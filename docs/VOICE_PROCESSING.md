@@ -1,6 +1,3 @@
-> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
-> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
-
 # 🎙️ Voice Processing
 
 IRIS is built around a real-time conversational WebRTC audio pipeline using the **Gemini 3.1 Live API**.

@@ -1,6 +1,3 @@
-> **[TIER ALIGNMENT: IRIS PRO COMMERCIAL LICENSE REQUIRED]**
-> *This document covers core voice orchestration loops, tools, and execution pipelines protected under the ₹499 IRIS PRO License.*
-
 # System Design and Architecture
 
 IRIS utilizes a strict split-process architecture to ensure security, high performance, and UI responsiveness. The system is divided into an untrusted frontend and a highly privileged, protected backend.

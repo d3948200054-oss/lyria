@@ -1,6 +1,3 @@
-> **[TIER ALIGNMENT: IRIS COMMUNITY EDITION (Free & Open Source)]**
-> *Access to the high-performance desktop framework shell (Electron + Vite + React 19 + Tailwind v4).*
-
 # 🔄 Changelog
 
 All notable changes to **IRIS AI** are documented here.
@@ -85,7 +82,7 @@ Format: `[version] — [codename] — [date]`
 
 - Fixed API blackout caused by accidental deletion of primary Vercel production environment
 - Provisioned new secure Node.js/Express backend: `https://iris-web-xi.vercel.app/`
-- Restored frontend UI: `https://irisaiw.vercel.app/`
+- Restored frontend UI: `https://irisxhq.vercel.app`
 - Added Vercel delete protection and strict CORS configuration
 - Fixed fatal `ERR_ELECTRON_BUILDER_CANNOT_EXECUTE` (mmap) crash during `npm run build:win`
 
@@ -105,7 +102,7 @@ Format: `[version] — [codename] — [date]`
 ### 🎨 Telemetry HUD (Full Redesign)
 
 - Replaced flat metric boxes with glassmorphic hardware telemetry HUD
-- Each node (CPU, RAM, Temp, OS) has isolated color-coded gradient mesh background (Emerald, Cyan, Orange, Purple)
+- Each node (CPU, RAM, Temp, OS) has isolated color-coded gradient mesh background (green, Cyan, Orange, Purple)
 - Added animated CSS cyber-grid patterns per metric card
 - Added giant faded background iconography (140px) with hover scale animation
 - Laser-edge hover glow — color-matched per hardware node
@@ -278,4 +275,3 @@ Format: `[version] — [codename] — [date]`
 > Made with ❤️ by [Harsh Pandey](https://github.com/201Harsh)
 >
 > **System Online. Neural Core active.**
-
