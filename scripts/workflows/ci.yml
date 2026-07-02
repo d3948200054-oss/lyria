@@ -2,9 +2,9 @@ name: CI Build & Lint
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ['main']
   pull_request:
-    branches: [ "main" ]
+    branches: ['main']
 
 jobs:
   build:
@@ -17,28 +17,28 @@ jobs:
         node-version: [23.x]
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
 
-    - name: Install System Dependencies (Linux)
-      if: matrix.os == 'ubuntu-latest'
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libx11-dev libxext-dev libmacaroons-dev libsodium-dev
+      - name: Install System Dependencies (Linux)
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libx11-dev libxext-dev libmacaroons-dev libsodium-dev
 
-    - name: Install Dependencies
-      run: npm ci
+      - name: Install Dependencies
+        run: npm ci
 
-    - name: Compile & Build
-      run: npm run build
-      
-    # Security: Ensure ASAR and Bytecode build correctly without errors
-    - name: Verify Build Output
-      run: ls -la out/ || ls out/
-      shell: bash
+      - name: Compile & Build
+        run: npm run build
+
+      # Security: Ensure ASAR and Bytecode build correctly without errors
+      - name: Verify Build Output
+        run: ls -la out/ || ls out/
+        shell: bash
