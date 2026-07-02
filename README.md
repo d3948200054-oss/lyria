@@ -26,6 +26,10 @@
     <img src="https://badgen.net/badge/Sponsor/Support%20IRIS/ff69b4?icon=github" alt="GitHub Sponsors">
   </a>
 
+  <a href="https://github.com/IRISX-AI/IRIS-AI/release">
+    <img src="https://badgen.net/badge/Sponsor/Support%20IRIS/ff69b4?icon=github" alt="GitHub Sponsors">
+  </a>
+
 </div>
 
 **Speak your command. IRIS executes it.**
