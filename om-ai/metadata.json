@@ -1,0 +1,6 @@
+{
+  "name": "om AI",
+  "description": "Hinglish voice-to-voice AI assistant with persistent memory and interactive video editing automation.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
